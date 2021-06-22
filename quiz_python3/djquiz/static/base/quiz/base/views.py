@@ -1,9 +1,6 @@
 from django.shortcuts import render
 
-from djquiz.base.models import Pergunta
-
-
-# Create your views here.
+from djquiz.static.base.quiz.base.models import Pergunta
 
 
 def home(requisicao):

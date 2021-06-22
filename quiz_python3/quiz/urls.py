@@ -18,7 +18,7 @@ from django.urls import path, include
 
 from djquiz import views
 
-urlpatterns = [
+urlpatterns = {
     path('admin/', admin.site.urls),
     path('', views.home),
-]
+}
